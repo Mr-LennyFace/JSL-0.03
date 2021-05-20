@@ -28,3 +28,8 @@ function Outfit() {
 
 console.log(Outfit());
 console.log(wear);
+
+function number(num) {
+  return num * 5;
+}
+console.log(number(12));
