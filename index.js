@@ -17,3 +17,14 @@ var shoppinglist = [
   [('Chicken 65 masala packet (100g)', 10)],
   ['Rice (1kg)', 1]
 ];
+
+var wear = 'T-Shirt';
+
+function Outfit() {
+  var wear = 'sweater';
+
+  return wear;
+}
+
+console.log(Outfit());
+console.log(wear);
